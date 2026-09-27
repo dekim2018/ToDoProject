@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: ToDoProject
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/todoproject?serverTimezone=Asia/Seoul&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true}
+    username: root
+    password: root1234!!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: false
+server:
+  port: ${SERVER_PORT:8080}
