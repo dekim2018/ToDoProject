@@ -1,6 +1,6 @@
 # Todo REST API
 
-Spring Boot 3.x + Spring Data JPA + MySQL + Gradle + Java 25로 구현한 할 일(ToDo) REST API입니다.
+Spring Boot 4.x + Spring Data JPA + MySQL + Gradle + Java 25로 구현한 할 일(ToDo) REST API입니다.
 
 > 과제의 핵심 요구사항인 `Controller · Service · Repository` 계층 분리, JPA Entity와 DTO 분리, CRUD, 완료/미완료 변경, 입력 검증, 400/404 공통 오류 응답을 모두 구현했습니다.
 
@@ -557,7 +557,7 @@ curl -i -X POST http://localhost:8080/api/todos \
 
 ## 12. 요구사항 체크리스트
 
-- [x] Spring Boot 3.x
+- [x] Spring Boot 4.x
 - [x] Spring Data JPA
 - [x] Java 25
 - [x] MySQL
